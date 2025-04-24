@@ -1,0 +1,5 @@
+Actual verification date: 2026-11-01
+Command: python3 autograd.py
+
+Learned w, b, final loss: (1.999999936273993, 1.0000001031108452, 1.1715633459688457e-14)
+Self-tests passed
