@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scalar-autograd-lab"
+version = "0.2.0"
+description = "A scalar reverse-mode autodiff engine with a small neural network, numerical gradient checks, and an XOR training example."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["scalargrad*"]
