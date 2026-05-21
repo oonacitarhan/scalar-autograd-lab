@@ -2,7 +2,7 @@ import random
 from .core import Value
 
 class MLP:
-    def __init__(self,widths,seed=7):
+    def __init__(self,widths,seed=0):
         if len(widths)<2 or any(not isinstance(w,int) or w<1 for w in widths):raise ValueError('positive layer widths required')
         rng=random.Random(seed);self.layers=[]
         for ins,outs in zip(widths,widths[1:]):

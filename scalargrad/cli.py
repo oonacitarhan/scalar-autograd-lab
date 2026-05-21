@@ -2,7 +2,7 @@ import argparse,json
 from .features import MLP,fit
 def main():
     parser=argparse.ArgumentParser(description='Train a scalar-autodiff MLP on XOR')
-    parser.add_argument('--steps',type=int,default=1000);parser.add_argument('--seed',type=int,default=7)
+    parser.add_argument('--steps',type=int,default=1000);parser.add_argument('--seed',type=int,default=0)
     args=parser.parse_args()
     try:
         x=[[-1,-1],[-1,1],[1,-1],[1,1]];y=[-1,1,1,-1]
