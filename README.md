@@ -33,7 +33,7 @@ Value nodes store parents and local backward closures. A topological traversal p
 sh scripts/check.sh
 ```
 
-Seven test groups plus the original reference Python checks exercise reference cases, invalid inputs, and relevant invariants.
+Eight Python test groups exercise reference cases, invalid inputs, and relevant invariants.
 The complete local run is in [docs/verification.txt](docs/verification.txt).
 The [checks workflow](.github/workflows/check.yml) executes the same source checks.
 
