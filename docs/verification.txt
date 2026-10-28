@@ -1,11 +1,12 @@
 Actual local verification: 2026-11-01
 
 PASS test_cli.test_cli_rejects_unknown_argument
+PASS test_cli.test_documented_workflow
 PASS test_cli.test_help
 PASS test_features.test_bad_input
 PASS test_features.test_parameter_gradient
 PASS test_features.test_shapes
 PASS test_features.test_xor_training
 PASS test_reference.test_original_reference_cases
-7 tests passed
-{"workload": "fit(MLP([2,4,1]),[[-1,-1],[-1,1],[1,-1],[1,1]],[-1,1,1,-1],50)", "repetitions": 5, "median_seconds": 0.07734023399825674, "min_seconds": 0.07227227700059302}
+8 tests passed
+{"workload": "fit(MLP([2,4,1]),[[-1,-1],[-1,1],[1,-1],[1,1]],[-1,1,1,-1],50)", "repetitions": 5, "median_seconds": 0.06529024399787886, "min_seconds": 0.05875346900575096}
